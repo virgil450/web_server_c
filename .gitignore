@@ -1,0 +1,66 @@
+# Ignore compiled object files and binaries
+.o
+.out
+.a
+.so
+.exe
+.dll
+
+# Ignore generated build files
+.log
+.tmp
+.temp
+
+# Ignore IDE-specific files
+# Visual Studio
+.suo
+.user
+.userosscache
+.sln.docstates
+.VC.db
+.VC.VC.opendb
+ipch
+.vscode
+.vs
+
+# CodeBlocks
+.layout
+.depend
+.cbp
+
+# CLion
+.idea
+cmake-build-debug
+cmake-build-release
+
+# Ignore build system files
+# Make
+Makefile~
+Makefile.debug
+Makefile.release
+
+# CMake
+CMakeLists.txt.user
+CMakeCache.txt
+cmake_install.cmake
+CMakeFiles
+
+# Ignore debugging-related files
+.dSYM
+.stackdump
+.core
+
+# Ignore temporary files
+.swp
+~
+##
+
+# Ignore logs and output directories
+logs
+output
+build
+dist
+
+# Ignore system files
+Thumbs.db
+.DS_Store
